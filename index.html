@@ -3,11 +3,30 @@ layout: default
 title: {{ site.name }}
 ---
 
+<p>
+  Spack is a package manager
+  for <a href="https://en.wikipedia.org/wiki/Supercomputer">supercomputers</a>,
+  Linux, and macOS.  It makes installing scientific software easy.  With
+  Spack, you can build a package with multiple versions, configurations,
+  platforms, and compilers, and all of these builds can coexist on the
+  same machine.
+</p>
+
+<p>
+  Spack isn't tied to a particular language; you can build a software stack in
+  <a href="https://spack.readthedocs.io/en/latest/basic_usage.html#extensions-python-support">Python</a>
+  or R, link to libraries written in C, C++, or Fortran, and easily
+  <a href="https://spack.readthedocs.io/en/latest/getting_started.html#compiler-configuration">swap compilers</a>.
+  Use Spack to install in your home directory, to
+  <a href="https://spack.readthedocs.io/en/latest/module_file_support.html">manage
+  shared installations and modules</a> on a cluster, or
+  to <a href="https://spack.readthedocs.io/en/latest/basic_usage.html#specs-dependencies">build
+  combinatorial versions</a> of software for testing.
+</p>
+
 <div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+  {% for post in site.posts reversed %}
+  <h1>{{ post.title }}</h1>
+    {{ post.content }}
+  {% endfor %}
 </div>
