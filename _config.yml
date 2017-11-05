@@ -11,7 +11,7 @@ baseurl:      ""
 # About/contact
 author:
   name:       the Spack community
-  url:        http://github.com/LLNL/spack
+  url:        http://github.com/spack
 
 paginate: 1
 
