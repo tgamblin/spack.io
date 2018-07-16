@@ -16,7 +16,7 @@ author:
 paginate: 1
 
 # Gems
-gems:
+plugins:
   - jekyll-paginate
 
 # Others
