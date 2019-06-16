@@ -1,6 +1,6 @@
 # spack.io
 
-[![Build Status](https://travis-ci.com/spack/spack.io.svg?branch=master)](https://travis-ci.org/spack/spack.io)
+[![Build Status](https://travis-ci.com/spack/spack.io.svg?branch=master)](https://travis-ci.com/spack/spack.io)
 
 This is the [spack.io](https://spack.io) website.
 
