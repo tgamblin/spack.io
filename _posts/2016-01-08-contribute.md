@@ -6,7 +6,7 @@ categories: main
 ---
 
 Visit [Spack on GitHub](https://github.com/spack/spack) and
-[take the tutorial](https://spack.readthedocs.io/en/latest/tutorial_sc16.html).
+[take the tutorial](https://spack-tutorial.readthedocs.io/en/latest/).
 Join the discussion on the
 [GoogleGroup](https://groups.google.com/d/forum/spack), and learn how to
 [contribute](https://spack.readthedocs.io/en/latest/contribution_guide.html)
